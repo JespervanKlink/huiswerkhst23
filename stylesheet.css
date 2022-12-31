@@ -1,0 +1,136 @@
+[class*="col-"]
+width: 100%;}
+
+@media only screen and (min-width: 768px)
+
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}}
+
+body{
+  background-color: green;
+}
+
+H1{
+  text-align: center;
+  color: black;
+  font-size: 75px;
+  margin: 20px;
+  font-family: 'Source Serif Pro', serif;
+}
+.header{
+  font-family: 'Source Serif Pro', serif;
+  color: white;
+  height: 100px;
+  width: 92.5%;
+  text-align: center;
+  list-style-type: none;
+  margin: 20px;
+  padding: 50px;
+  border-radius: 10px;
+  background-image: url(bijennatuur.jpg) ;
+  background-size: cover;
+opacity: 0.6;
+}
+
+.ul{
+  float: left;
+  height: 600px;
+  width: 15%;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 10px;
+  background-image: url(bijennatuur.jpg) ;
+  background-size: cover;
+  font-family: 'Source Serif Pro', serif;
+  }
+
+  a{
+    font-size: 25px;
+    padding-bottom: 25px;
+    color: black;
+    opacity: 0.6;
+    padding-left: 100px;
+  }
+
+  a:hover{
+    color: yellow;
+  }
+
+  a:visited{
+    color: red'
+  }
+
+  a:active{
+    color: blue;
+  }
+
+  .bij{
+    border-radius: 10px;
+    margin-top: 100px;
+    opacity: 0.6;
+    padding-left: 15px;
+  }
+
+  #presentatie{
+  height: 600px;
+  width: 1400px;
+  background-color: #FEDD72;
+  padding: 30px;
+  text-align: center;
+  margin: 20px;
+  float: left;
+  background-color: #FEDD72;
+  border-radius: 10px;
+  font-size: 20px;
+  background-image: url(bijennatuur.jpg) ;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.formulier{
+
+  border-radius: 10px;
+  margin-top: 25px;
+  padding-top: 40px;
+  font-weight: 900;
+  background-color: white;
+  opacity: 0.6;
+  height: 350px;
+  text-align: center;
+}
+
+.tekst{
+
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bold;
+  background-color: white;
+  opacity: 0.6;
+}
+footer{
+
+font-family: 'Source Serif Pro', serif;
+color: black;
+background-image: url(bijennatuur.jpg) ;
+background-size: cover;
+float:left;
+width: 129%;
+height: 50px;
+margin-top: 50px;
+margin-left: -415px;
+padding: 20px;
+border-radius: 10px;
+display: block;
+opacity: 0.6;
+}

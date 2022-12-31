@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <title>BEE! Energy Drink</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $("#a1").mouseenter(function(){
+        alert("Kom meer over ons te weten!");
+      });
+    });
+    </script>
+    <script>
+    $(document).ready(function(){
+      $("#a0").mouseenter(function(){
+        alert("Bekijk onze homepage!");
+      });
+    });
+    </script>
+    <script>
+    $(document).ready(function(){
+      $("#a3").mouseenter(function(){
+        alert("Neem contact met ons op!");
+      });
+    });
+    </script>
+    <script>
+$(document).ready(function(){
+  $("input").focus(function(){
+    $(this).css("background-color", "yellow");
+  });
+  $("input").blur(function(){
+    $(this).css("background-color", "green");
+  });
+});
+</script>
+</script>
+  </head>
+<body>
+    <body bgcolor="#FFFFE0">
+<div class="header">
+      <h1>Welkom bij BEE! Energy Drink</h1>
+</div>
+<div class="ul">
+      <a id="a0"href="home.html">Home</a>
+      <p></p>
+      <a id="a1" href="home.html">Over ons</a>
+      <p></p>
+      <a id="a3"href="home.html">Contact</a>
+      <p></p>
+      <img class="bij" src="bijenfoto.jpg" alt="" width="250" height="250">
+</div>
+<div id="presentatie">
+    <div class="tekst">
+      <p>In een wereld die energie slurpt willen wij van BEE! Energy Drink je een optimale boost geven.</p>
+      <p>Van ons product krijg je weliswaar geen vleugels, maar het is met recht bij-zonder: wij verwerken namelijk honing in onze energiedrink.</p>
+      <p>Wij geven jou tijdelijk de mogelijkheid om een gratis proefsample aan te vragen. Try it, taste it, experience it and bee it!</p>
+      <p>Wil je BEE! Energy Drink proeven?
+      Vraag dan een GRATIS! sample aan!</p>
+</div>
+<div class="formulier">
+  <legend><strong>Persoonlijke gegevens</strong></legend>
+    <label for="naam"></label>
+      <strong>Naam:
+      <input id="naam" type="text" name="naam" placeholder="naam" <="" td="">
+    <br>
+    <label for="geslacht"></label>
+      Geslacht:
+        <input type="radio" name="geslacht" value="man" checked="">man
+        <input type="radio" name="geslacht" value="vrouw">vrouw
+        <input type="radio" name="geslacht" value="anders">anders
+    <br>
+    <label for="geboortedatum"></label>
+      Geboortedatum:
+        <input id="geboortedatum" type="date" name="geboortedatum" max="2080-12-31">
+      <br>
+    <label for="emailadres"></label>
+    E-mailadres:
+        <input id="email" type="email" name="emailadres" placeholder="e-mailadres">
+      <br>
+    <label for="Telefoonnummer"></label>
+    Telefoonnummer:
+        <input id="telefoonnummer"type="number" name="Telefoonnummer" placeholder="telefoonnummer">
+      <br>
+    <label for="Straatnaam"></label>
+    Straatnaam:
+        <input id="straatnaam" type="text" name="Straatnaam" placeholder="straatnaam" <="" td="">
+      <br>
+    <label for="huisnummer"></label>
+    Huisnummer:
+        <input id="huisnummer" type="text" name="huisnummer" placeholder="huisnummer">
+      <br>
+    <label for="postcode"></label>
+    Postcode:
+        <input id="postcodetype" type="text" name="postcode" placeholder="postcode">
+      <br>
+    <label for="woonplaats"></label>
+    Woonplaats:
+        <input id="woonplaats" type="text" name="woonplaats" placeholder="woonplaats">
+      <br>
+    <p id="knop" style="display:none">Dank je wel! Wij sturen zo snel mogelijk een sample naar je toe!</p>
+    <button type="button" onclick="document.getElementById('knop').style.display='block'">Verzenden!</button>
+      </strong>
+</div>
+<footer>
+    <strong>BEE! Energy drink©<strong>
+</footer>
+</body>
+</html>
